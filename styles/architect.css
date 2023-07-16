@@ -1,4 +1,105 @@
 *{
     font-family: work sans;
-   
+ 
 }
+.btn_Primary{
+    background: #FF900E;
+    border-radius: 5px;
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+
+header{
+ padding: 50px 240px;
+    background:#ff900e29;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    /* margin-right: 30px; */
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+nav ul li a{
+   text-decoration: none;
+}
+
+
+/* banner styles */
+.banner_content{
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+.banner_Title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    
+}
+.banner_Info{
+    color: #727272;
+    margin: 15px auto;
+
+}
+.banner img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* responsive css */
+@media screen and (max-width:576px) {
+    
+        header{
+            padding: 20px;
+        }
+        nav {
+            flex-direction: column;
+        }
+
+      
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+    header{
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }
+
+  
+
+}
+
+
+
+
+
+
